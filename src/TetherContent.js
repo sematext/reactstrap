@@ -108,7 +108,6 @@ class TetherContent extends React.Component {
     this._tether = new Tether(this.getTetherConfig());
     this.props.tetherRef(this._tether);
     this._tether.position();
-    this._element.childNodes[0].focus();
   }
 
   toggle(e) {
